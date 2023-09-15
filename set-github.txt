@@ -1,0 +1,27 @@
+1. Buat akun github
+
+2. [command prompt]
+pindah directory ke project yg ingin di deploy sesi_5a
+
+3. git init
+
+4. set config user.name & user.email di local (ketik di command prompt)
+git config --local user.name "username_anda"
+git config --local user.email "email_anda"
+
+5. check apakah user.name & user.email sudah terganti
+git config --list
+(keluar dengan klik escape terus ketik :q)
+
+6. buat file .gitginore kemudian isi di dalamnya dengan .venv
+
+7. buat repository di github
+
+8. push ke github
+    git status
+    git add .
+    git status
+    git commit -m 'initial push'
+    git remote add origin https://github.com/jeremyjoshua14/bca-flask-deploy.git
+    
+    git push --set-upstream origin master//git push -u origin main
